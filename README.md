@@ -1,6 +1,6 @@
-# Angularsupp
+# Angular++
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
+Voici l'exemple d'un mini API réaliser par nôtre formateur durant la formation Simplon Roubaix.
 
 ## Development server
 

@@ -1,0 +1,24 @@
+<h2 class="my-5">{{title}}</h2>
+
+<div class="container mb-5">
+ <div class="row">
+   <aside class="col-sm-4">
+     <div>
+       <h3>Zone d'écriture</h3>
+       <p>type de roman : </p>
+       <select [(ngModel)]="selectedType" >
+         <option *ngFor="let type of types" [value]="type">{{type}}</option>
+       </select>
+       <p>vôtre roman</p>
+       <textarea [(ngModel)]="novel"></textarea>
+     </div>
+   </aside>
+   <section class="col-sm-8">
+     <div>
+       <h3>Rendu</h3>
+       <h4>Roman de type : {{selectedType}}</h4>
+       <p>{{novel}}</p>
+     </div>
+   </section>
+ </div>
+</div>
